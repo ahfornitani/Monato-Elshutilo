@@ -1,7 +1,23 @@
 # Monato-Elshutilo
 Aŭtomataj iloj (skriptoj) skribitaj per Pitono kaj PovoŜelo por elŝuti PDF-dosierojn de revuo Monato (el ties oficiala PDF-indekso ekz. https://www.monato.be/JJJJ/pdfindex.php )
 
+# Pri la revuo Monato
+Detalajn informojn pri la Monato oni povas legi ĉe Vikipedio: https://www.wikiwand.com/eo/Monato_(gazeto)
+
+Kiel unu el la plej famaj kaj gravaj elementoj de la esperanta kulturo, abono certe estas rekomendinda.
+
+Por tiuj kiuj ne povas pagi, aŭ deziras nur studi per ĝi, jen kial mi kreis la elŝutilojn.
+Dankon!
+
 ## Kiel uzi
+### Per wget (plej simpla metodo)
+1. Elŝutu *.txt*-dosieron `listo-de-ligiloj.txt`
+2. Aliru la dosierujon per `cd ` (ekz. `cd /home/ViaUzantoNomo/Downloads/MonatoPDF/` )
+3. Aktivigu wget-n per `wget -i listo-de-ligiloj.txt` . Atendu kelkajn minutojn ĝis finiĝo.
+
+Por instali wget-n oni uzu "`Scoop`"-n por *Windows* kaj "`Homebrew`"-n por *macOS*. Instruoj por instali tiujn ilojn oni facile trovas per reto-serĉilo.
+Linukso ĵam havas ĝin (plej ofte).
+
 ### PowerShell-a skripto
 Unue elŝutu la .ps1 dosiero el ĉi tiu deponejo. Memoru/notu la dosierujon, kien vi konservis ĝin. Estas tre bona ideo krei unu specifan malplenan dosierujon por la skripto kaj la elŝutotaj PDF-dosieroj. (ekz. *C:\Users\ViaUzantoNomo\Desktop\MonatoPDF* )
 
@@ -17,10 +33,11 @@ Fine, la komando kiu aktivigos la skripton estas:
 
 Se oni timas pri kio faras la skripto, eblas legi la kodon ĉi tie, aŭ malfermi ĝin per teksto-redaktilo (ekz. Notepad). La lineoj estas malmultaj kaj tre simplaj, do eĉ sen grandaj konoj eblas kompreni, ke ĝi estas sekura.
 
-![Paŝo 1](https://i.imgur.com/SjHRWBc.jpg)
-![Paŝo 2](https://i.imgur.com/LFyNcof.jpg)
-![Paŝo 3](https://i.imgur.com/mWpVP4b.jpg)
-![Paŝo 4](https://i.imgur.com/jV0qHc8.jpg)
+Eble estos necese ŝanĝi permesojn de PowerShell per [Set-ExecutionPolicy](https://docs.microsoft.com/en-us/powershell/module/microsoft.powershell.security/set-executionpolicy?view=powershell-6)
+
+![Paŝo 1](https://i.imgur.com/LFyNcof.jpg)
+![Paŝo 2](https://i.imgur.com/mWpVP4b.jpg)
+![Paŝo 3](https://i.imgur.com/jV0qHc8.jpg)
 
 
 ### Pitona skripto
@@ -33,11 +50,3 @@ Fine, aktivigu la skripton per `python ./monato-elshutilo.py`
 
 ## Kiel rezigni/nuligi la elŝutadon
 Se oni decidis ne elŝuti ĉiujn dosierojn, aŭ nur volas provi ĝin alimomente, la komando por nuligi estas `Ctrl+C` aŭ `Ctrl+X` (notu, ke eĉ en Mac OS oni uzu `Ctrl` anstataŭ `Cmd/⌘`
-
-## Pri la revuo Monato
-Detalajn informojn pri la Monato oni povas legi ĉe Vikipedio: https://www.wikiwand.com/eo/Monato_(gazeto)
-
-Kiel unu el la plej famaj kaj gravaj elementoj de la esperanta kulturo, abono certe estas rekomendinda.
-
-Por tiuj kiuj ne povas pagi, aŭ deziras nur studi per ĝi, jen kial mi kreis la elŝutilojn.
-Dankon!
