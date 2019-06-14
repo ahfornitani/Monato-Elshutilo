@@ -16,7 +16,7 @@ Dankon!
 3. Aktivigu wget-n per `wget -i listo-de-ligiloj.txt` . Atendu kelkajn minutojn ĝis finiĝo.
 
 Por instali wget-n oni uzu "`Scoop`"-n por *Windows* kaj "`Homebrew`"-n por *macOS*. Instruoj por instali tiujn ilojn oni facile trovas per reto-serĉilo.
-Linukso ĵam havas ĝin (plej ofte).
+Linukso jam havas ĝin (plej ofte).
 
 ### PowerShell-a skripto
 Unue elŝutu la .ps1 dosiero el ĉi tiu deponejo. Memoru/notu la dosierujon, kien vi konservis ĝin. Estas tre bona ideo krei unu specifan malplenan dosierujon por la skripto kaj la elŝutotaj PDF-dosieroj. (ekz. *C:\Users\ViaUzantoNomo\Desktop\MonatoPDF* )
