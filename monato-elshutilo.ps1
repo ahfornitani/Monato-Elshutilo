@@ -151,7 +151,18 @@ $listoDeMonatoRevuoj = 'https://www.monato.be/1990/monato199010.pdf',
 'https://www.monato.be/2017/monato20170809.pdf',
 'https://www.monato.be/2017/monato201710.pdf',
 'https://www.monato.be/2017/monato201711.pdf',
-'https://www.monato.be/2017/monato201712.pdf'
+'https://www.monato.be/2017/monato201712.pdf',
+'https://www.monato.be/2018/monato201801.pdf',
+'https://www.monato.be/2018/monato201802.pdf',
+'https://www.monato.be/2018/monato201803.pdf',
+'https://www.monato.be/2018/monato201804.pdf',
+'https://www.monato.be/2018/monato201805.pdf',
+'https://www.monato.be/2018/monato201806.pdf',
+'https://www.monato.be/2018/monato201807.pdf',
+'https://www.monato.be/2018/monato20180809.pdf',
+'https://www.monato.be/2018/monato201810.pdf',
+'https://www.monato.be/2018/monato201811.pdf',
+'https://www.monato.be/2018/monato201812.pdf'
 
 $dosierIndikoDeSkripto = $MyInvocation.MyCommand.Path
 $celDosierujo = Split-Path $dosierIndikoDeSkripto
@@ -166,7 +177,7 @@ function DownloadFile([Object[]] $listoDeElementoj,[string]$targetDirectory) {
   $nomoDeOriginaDosiero = $originaDosiero.SubString($originaDosiero.LastIndexOf('/')+1)
   $nomoDeElŝutitaDosiero = $targetDirectory + $nomoDeOriginaDosiero
   $wc.DownloadFile($originaDosiero, $nomoDeElŝutitaDosiero)
-  Write-Host "La origina dosiero $originaDosiero estis elŝutita al $nomoDeElŝutitaDosiero `n"        
+  Write-Host "La origina dosiero $originaDosiero estis konservita en $nomoDeElŝutitaDosiero `n"        
  }
 
 }

@@ -150,11 +150,23 @@ listoDeLigiloj = ['https://www.monato.be/1990/monato199010.pdf',
         'https://www.monato.be/2017/monato20170809.pdf',
         'https://www.monato.be/2017/monato201710.pdf',
         'https://www.monato.be/2017/monato201711.pdf',
-        'https://www.monato.be/2017/monato201712.pdf']
+        'https://www.monato.be/2017/monato201712.pdf',
+        'https://www.monato.be/2018/monato201801.pdf',
+        'https://www.monato.be/2018/monato201802.pdf',
+        'https://www.monato.be/2018/monato201803.pdf',
+        'https://www.monato.be/2018/monato201804.pdf',
+        'https://www.monato.be/2018/monato201805.pdf',
+        'https://www.monato.be/2018/monato201806.pdf',
+        'https://www.monato.be/2018/monato201807.pdf',
+        'https://www.monato.be/2018/monato20180809.pdf',
+        'https://www.monato.be/2018/monato201810.pdf',
+        'https://www.monato.be/2018/monato201811.pdf',
+        'https://www.monato.be/2018/monato201812.pdf'
+        ]
 
-for chiuLigilo in listoDeLigiloj:
-    servilaRespondo = requests.get(chiuLigilo)
-    nomoDeElshutitaDosiero = basename(chiuLigilo)
-    print(f'La origina dosiero {chiuLigilo} estis elŝutita al {os.getcwd()}/{nomoDeElshutitaDosiero}')
-    with open(nomoDeElshutitaDosiero, 'wb') as output:
+for ĉiuLigilo in listoDeLigiloj:
+    servilaRespondo = requests.get(ĉiuLigilo)
+    nomoDeElŝutitaDosiero = basename(ĉiuLigilo)
+    print(f'La origina dosiero {ĉiuLigilo} estis konservita en {os.getcwd()}/{nomoDeElŝutitaDosiero}')
+    with open(nomoDeElŝutitaDosiero, 'wb') as output:
         output.write(servilaRespondo.content)
