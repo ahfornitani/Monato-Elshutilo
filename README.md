@@ -2,7 +2,7 @@
 Aŭtomataj iloj (skriptoj) skribitaj per Pitono kaj PovoŜelo por elŝuti PDF-dosierojn de revuo Monato (el ties oficiala PDF-indekso ekz. https://www.monato.be/JJJJ/pdfindex.php )
 
 # Pri la revuo Monato
-Detalajn informojn pri la Monato oni povas legi ĉe Vikipedio: https://www.wikiwand.com/eo/Monato_(gazeto)
+Detalajn informojn pri la Monato oni povas legi ĉe Vikipedio: https://eo.wikipedia.org/wiki/Monato_(gazeto)
 
 Kiel unu el la plej famaj kaj gravaj elementoj de la esperanta kulturo, abono certe estas rekomendinda.
 
