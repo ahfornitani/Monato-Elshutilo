@@ -166,6 +166,8 @@ listoDeLigiloj = ['https://www.monato.be/1990/monato199010.pdf',
         'https://www.monato.be/pdf/monato202002.pdf',
         'https://www.monato.be/pdf/monato202003.pdf',
         'https://www.monato.be/pdf/monato202004.pdf'
+        'https://www.monato.be/pdf/monato202005.pdf',
+        'https://www.monato.be/pdf/monato202006.pdf'
         ]
 
 for ĉiuLigilo in listoDeLigiloj:
